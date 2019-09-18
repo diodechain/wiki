@@ -680,3 +680,20 @@ Parameters:
 Response:
 
 ["response", "portclose", "ok"]
+
+## goodbye
+
+Server disconnect.
+
+RPC Call: ["goodbye",reasons…...]
+
+Parameters:
+
+
+
+*   reasons: array of binary - reason why server disconnect to device
+
+Example:
+
+["goodbye","ticket expected","you might get blacklisted"]
+
